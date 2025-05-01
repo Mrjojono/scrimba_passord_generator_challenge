@@ -14,7 +14,7 @@ function generatePasswords(){
 }
 
 
-function displayPasswords(){
+ export function displayPasswords(){
     paswword1.value = "";
     paswword2.value = "";
     for(let i = 0; i < 15; i++){ 
@@ -23,4 +23,5 @@ function displayPasswords(){
     }
 }
 
+window.displayPasswords = displayPasswords
 
